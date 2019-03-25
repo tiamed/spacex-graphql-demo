@@ -2,5 +2,7 @@
 ## To start in production mode run:
 ```shell
 yarn
-yarn start
+cd client && yarn
+yarn build
+cd .. && yarn start
 ```
